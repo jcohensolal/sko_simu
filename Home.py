@@ -1,4 +1,5 @@
 # Imports
+import gc
 import logging
 
 import streamlit as st
@@ -21,6 +22,19 @@ LOG = logging.getLogger(__name__)
 st.set_page_config(
     page_title="SKO Simulator",
     layout='wide')
+
+
+def clear_memory():
+    # Clear results from previous execution
+    keys_to_clear = [
+        "settings", "results", "results_bytes", "results_title", "tournament_results", "player_results", 
+        "figure_buf", "pp_cfg", "level_cfg"]
+    for key in keys_to_clear:
+        if key in st.session_state:
+            del st.session_state[key]
+
+    # Garbage collect
+    gc.collect()
 
 
 ############################################################################
@@ -91,6 +105,9 @@ if "results" not in st.session_state:
 
 
 if run_button:
+    # Clear RAM
+    clear_memory()
+
     # Run simulations
     all_tournament_results, all_player_results, settings = \
         simu.run_simus()
