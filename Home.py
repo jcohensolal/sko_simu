@@ -54,7 +54,7 @@ with st.sidebar:
         unsafe_allow_html=True
     )
     run_button = st.button("Run Simulation", key="Run", type="primary", args=())
-    st.selectbox("Simulations Count", key="Simu_Count", options=[1, 10, 100, 500, 1000, 5000, 10000, 25000], index=3)
+    st.selectbox("Simulations Count", key="Simu_Count", options=[1, 10, 100, 500, 1000, 5000, 10000, 20000], index=3)
 
     st.markdown("<div style='text-align: center; font-size: 26px; font-weight: bold;'>Tournament Settings</div>", unsafe_allow_html=True)
     st.selectbox("Players in Tournament", key="Players_Count", options=[100, 500, 1000, 5000], index=2)
