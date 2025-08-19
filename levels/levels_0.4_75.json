@@ -1,0 +1,386 @@
+{
+    "1": 
+    {
+        "value_base10euro": 5,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "2": 
+    {
+        "value_base10euro": 6,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "3": 
+    {
+        "value_base10euro": 7.5,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "4": 
+    {
+        "value_base10euro": 10,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "5": 
+    {
+        "value_base10euro": 15,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "6": 
+    {
+        "value_base10euro": 25,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "7": 
+    {
+        "value_base10euro": 50,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "8": 
+    {
+        "value_base10euro": 100,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "9": 
+    {
+        "value_base10euro": 200,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "10": 
+    {
+        "value_base10euro": 500,
+        "probas": [
+            {
+            "multiplier": 75,
+            "proba": 0.001
+            },
+            {
+            "multiplier": 10,
+            "proba": 0.008
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.044
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.126
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.221
+            },
+            {
+            "multiplier": 0.4,
+            "proba": 0.6
+            }
+        ]
+    },
+    "11": 
+    {
+        "value_base10euro": 10000,
+        "probas": [
+            {
+            "multiplier": 10,
+            "proba": 0.01
+            },
+            {
+            "multiplier": 3,
+            "proba": 0.05
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.11
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.23
+            },
+            {
+            "multiplier": 0.5,
+            "proba": 0.6
+            }
+        ]
+    },
+    "12": 
+    {
+        "value_base10euro": 100000,
+        "probas": [
+            {
+            "multiplier": 3,
+            "proba": 0.06
+            },
+            {
+            "multiplier": 2,
+            "proba": 0.12
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.22
+            },
+            {
+            "multiplier": 0.6,
+            "proba": 0.6
+            }
+        ]
+    },
+    "13": 
+    {
+        "value_base10euro": 333333,
+        "probas": [
+            {
+            "multiplier": 2,
+            "proba": 0.16002
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.30658
+            },
+            {
+            "multiplier": 0.7,
+            "proba": 0.5334
+            }
+        ]
+    },
+    "14": 
+    {
+        "value_base10euro": 500000,
+        "probas": [
+            {
+            "multiplier": 1.5,
+            "proba": 0.1857
+            },
+            {
+            "multiplier": 1,
+            "proba": 0.35005
+            },
+            {
+            "multiplier": 0.8,
+            "proba": 0.46425
+            }
+        ]
+    }
+}
