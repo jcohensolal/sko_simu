@@ -77,6 +77,7 @@ with st.sidebar:
 visual.global_styling()
 
 # Title
+st.write("")
 st.markdown("<div style='text-align: center; font-size: 44px; font-weight: bold;'>SKO Simulator</div>", unsafe_allow_html=True)
 
 # Initialize state variables
@@ -87,6 +88,7 @@ if "results" not in st.session_state:
     st.session_state["settings"] = None
     st.session_state["tournament_results"] = None
     st.session_state["player_results"] = None
+
 
 if run_button:
     # Run simulations

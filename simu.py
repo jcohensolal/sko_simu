@@ -91,8 +91,8 @@ def load_payout(itm_pct, payout_factor, reg_pp_pct, players_per_table, n_players
                 f"{players_per_table}_"
                 f"{n_players}_"
                 f"{buy_in}")
-    full_name = os.path.join("app", "payouts", f"{filename}.json")
-    LOG.info("Prize pool file: " + full_name)
+    full_name = os.path.join("payouts", f"{filename}.json")
+    #LOG.info("Prize pool file: " + full_name)
 
     try:
         with open(full_name) as pp_cfg:
@@ -137,10 +137,9 @@ def run_simus():
     max_multi = st.session_state.Max_Multiplier
 
     # Load payout
-    current_dir = os.path.dirname(os.path.abspath(__file__))
     pp_cfg = load_payout(itm_pct, payout_factor, reg_pp_pct, players_per_table, n_players, buy_in)
     st.session_state["pp_cfg"] = pp_cfg
-    #LOG.info("pp_cfg: " + str(pp_cfg))
+    LOG.info("pp_cfg: " + str(pp_cfg))
     if pp_cfg is None:
         st.markdown(
             "<div style='text-align: center; font-size: 20px; font-weight: bold; color: red;'>Payouts for these parameters not yet available</div>",
@@ -149,11 +148,12 @@ def run_simus():
 
     # Load levels, limit based on user input, and store in fast structure
     levels_file = f"levels_{min_multi}_{max_multi}.json"
+    current_dir = os.path.dirname(os.path.abspath(__file__))
     with open(os.path.join(current_dir, 'levels', levels_file)) as levels_cfg:
         levels_cfg = json.load(levels_cfg)
     levels_cfg = {k: v for k, v in levels_cfg.items() if int(k) <= max_token}
     st.session_state["levels_cfg"] = levels_cfg
-    #LOG.info("levels_cfg: " + str(levels_cfg))
+    LOG.info("levels_cfg: " + str(levels_cfg))
     preprocessed_levels = preprocess_levels(levels_cfg)
 
     # Initialization
