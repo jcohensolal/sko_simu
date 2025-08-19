@@ -358,9 +358,12 @@ def run_tournament(
             alive_players.pop(idx2)
 
     # Process final results (don't forget the original bounty of the winner)
-    winner_id = alive_players[0]["id"]
+    winner = alive_players[0]
+    winner_id = winner["id"]
     results[winner_id]["rank"] = 1
-    results[winner_id]["KO_winnings"] = round(results[winner_id]["KO_winnings"] + base_ko_value, 2)
+    final_prize_multiplier = get_random_ko_multiplier(preprocessed_levels, winner["token_level"])
+    final_ko_prize = final_prize_multiplier * winner["token_euros"]
+    results[winner_id]["KO_winnings"] = round(results[winner_id]["KO_winnings"] + final_ko_prize, 2)
     sorted_results  = sorted(results.items(), key=lambda x: x[1]["rank"])
     player_results = {place + 1: {"id": player_id, **data} for place, (player_id, data) in enumerate(sorted_results )}
 
