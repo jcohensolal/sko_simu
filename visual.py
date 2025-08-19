@@ -7,6 +7,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
+pd.set_option('future.no_silent_downcasting', True)
+
+
 ###### Logging setup ######
 default_log_args = {
     "level": logging.INFO,
